@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funtion and condition</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>miter calculater</h1>
+        <div>
+            <h2>user name:</h2>
+            <input type="text" id="name" placeholder="Enter user name">
+
+        </div>
+        <div>
+            <h2>miter number:</h2>
+            <input type="number" id="miterNumber" placeholder="Enter miter number">
+
+        </div>
+        <div>
+            <h2>Unit Price:</h2>
+            <input type="number" id="Price" placeholder="Enter Unit price">
+        </div>
+        <div>
+            <h2>Number Of Fan:</h2>
+            <input type="number" id="fanNumber" placeholder="fan number">
+            <h2>watts:</h2>
+            <input type="number" id="fanWatts" placeholder="fan watts">
+            <h2>hours:</h2>
+            <input type="number" id="fanHours" placeholder="How long fan on">
+            <h2>Oneday Fan bill:</h2>
+            <p id="fanWattsDis"></p>
+        </div>
+        <div>
+            <h2>Number Of Bulbs:</h2>
+            <input type="number" id="bulbsNumber" placeholder="bulbs number">
+            <h2>watts:</h2>
+            <input type="number" id="bulbsWatts" placeholder="bulbs watts">
+            <h2>hours:</h2>
+            <input type="number" id="BulbsHours" placeholder="How long Bulbs on">
+            <h2>Oneday Bulbs bill:</h2>
+            <p id="bulbsWattsDis"></p>
+        </div>
+        <div>
+            <h2>number of AC:</h2>
+            <input type="number" id="ACNumber" placeholder="AC number">
+            <h2>watts:</h2>
+            <input type="number" id="ACWatts" placeholder="AC watts">
+            <h2>hours:</h2>
+            <input type="number" id="ACHours" placeholder="How long AC on">
+            <h2>Oneday AC bill :</h2>
+            <p id="ACWattsDis"></p>
+        </div>
+        <div>
+            <h2>number of TV:</h2>
+            <input type="number" id="TVNumber" placeholder="TV number">
+            <h2>watts:</h2>
+            <input type="number" id="TVWatts" placeholder="TV watts">
+            <h2>hours:</h2>
+            <input type="number" id="TVHours" placeholder="How long TV on">
+            <h2>Oneday TV bill :</h2>
+            <p id="TVWattsDis"></p>
+        </div>
+        <div>
+            <h2>number of Fridge:</h2>
+            <input type="number" id="FridgeNumber" placeholder="Fridge number">
+            <h2>watts:</h2>
+            <input type="number" id="FridgeWatts" placeholder="Fridge watts">
+            <h2>hours:</h2>
+            <input type="number" id="FridgeHours" placeholder="How long Fridge on">
+            <h2>Oneday Fridge bill:</h2>
+            <p id="FridgeWattsDis"></p>
+        </div>
+
+        <button id="bill" onclick="show()">miter bill</button>
+        <h5 id="rasult">
+        </h5>
+    </section>
+
+    <script src="./js/app.js"></script>
+
+</body>
+
+</html>
